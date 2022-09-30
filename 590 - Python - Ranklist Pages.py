@@ -1,5 +1,6 @@
 # Python - Ranklist Pages
 # Rank - 590
+# https://www.codechef.com/submit/RANKLISTPAGE
 
 import math
 
