@@ -9,14 +9,14 @@ int main() {
 	int t;
 	cin >> t;
 	while(t--) {
-	    vector<int> myVector;
     	int n, p, x, y;
     	cin >> n >> p >> x >> y;
+    	int myVector[n];
     	int answer = 0;
     	for ( int i = 0; i < n; i++ ) {
             int tempVar;
             cin >> tempVar;
-            myVector.push_back(tempVar);
+            myVector[i] = tempVar;
     	}
     	for ( int i = 0; i < p; i++ ) {
     	    if ( myVector[i] == 0 ) {
