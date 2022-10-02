@@ -4,8 +4,7 @@
 
 // Unsolved yet, still learning vector/arrays in c++
 
-#include <iostream>
-#include <vector>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
@@ -13,18 +12,20 @@ int main() {
 	cin >> testCases;
 	while(testCases--) {
 	    int n, x;
-	    cin >> n, x;
-	    std::vector<int> sizeMovies;
-	    std::vector<int> ratingMovies;
+	    cin >> n >> x;
+	    cout << "this is n: " << n << " this is x: " << x << endl;
+	    vector<int> sizeMovies;
+	    vector<int> ratingMovies;
 	    for (int i = 0; i < n; i++) {
 	        int size, rating;
-	        cin >> size, rating;
+	        cin >> size >> rating;
+	        cout << "this is the size: " << size << " this is the rating: " << rating << endl;
 	        sizeMovies.push_back(size);
 	        ratingMovies.push_back(rating);
 	    }
-        for (int i: ratingMovies) {
-            std::cout << i << endl;
-        }
+	    for (auto it : sizeMovies) {
+	        cout << "this is a size movies element: " << it << endl; 
+	    }
 	}
 	return 0;
 }
