@@ -27,7 +27,6 @@ int main() {
 	                fat-=x1;
 	            }
 	        }
-        // problem might end here
 	        if ( fat == 0 ) {
 	            cout << "1" << endl;
 	        } else {
