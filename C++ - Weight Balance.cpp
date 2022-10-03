@@ -19,6 +19,7 @@ int main() {
 	    if (( fat == m * x1 ) || ( fat == m * x2 )) {
 	        cout << "1" << endl;
 	    } else {
+		// something is not right here
 	        for ( int i = 0; i < m; i++ ) {
 	            if ( i % x2 == 0 ) {
 	                fat-=x2;
