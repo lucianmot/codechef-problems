@@ -8,17 +8,17 @@ using namespace std;
 int main() {
 	int t;
 	cin >> t;
-	while(t--) {
-	    int n;
-	    cin >> n;
-	    int a[n];
-	    for ( int i = 0; i < n; i++ ) {
-	        int num;
-	        cin >> num;
-	        a[i] = num;
+	while(t--){
+	    int num;
+	    cin >> num;
+	    int answer = 0;
+	    for ( int i = num; i > 0; ) {
+	        if ( i % 10  == 4 ) {
+	            answer+=1;
+	        }
+	        i/=10;
 	    }
-	    sort(a, a + n);
-	    cout << a[0] + a[1] << endl;
+	    cout << answer << endl;
 	}
 	return 0;
 }
