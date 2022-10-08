@@ -2,8 +2,6 @@
 // Rating - ---
 // https://www.codechef.com/OCT221D/problems/BUILDINGRACE?tab=statement
 
-// hehe qwerty
-
 #include <bits/stdc++.h>
 using namespace std;
 
