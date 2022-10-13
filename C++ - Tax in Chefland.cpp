@@ -1,6 +1,6 @@
 // C++ - Tax in Chefland
-// Rating - ---
-// https://www.codechef.com/START60D/problems/TAXES?tab=statement
+// Rating - 276
+// https://www.codechef.com/submit/TAXES
 
 #include <bits/stdc++.h>
 using namespace std;
