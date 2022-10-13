@@ -1,6 +1,6 @@
 // C++ - Audible Range
-// Rating - ---
-// https://www.codechef.com/START59D/problems/AUDIBLE
+// Rating - 279
+// https://www.codechef.com/submit/AUDIBLE
 
 #include <bits/stdc++.h>
 using namespace std;
