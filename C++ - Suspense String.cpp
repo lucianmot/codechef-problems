@@ -1,6 +1,6 @@
 // C++ - Suspense String
-// Rating - ---
-// https://www.codechef.com/START59D/problems/SUSSTR
+// Rating - 1239
+// https://www.codechef.com/submit/SUSSTR
 
 #include <bits/stdc++.h>
 using namespace std;
