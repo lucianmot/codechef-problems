@@ -1,6 +1,6 @@
 // C++ - Programming Languages
-// Rating - ---
-// https://www.codechef.com/LP1TO201/problems/PROGLANG
+// Rating - 1001
+// https://www.codechef.com/submit/PROGLANG
 
 #include <iostream>
 using namespace std;
