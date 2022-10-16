@@ -2,7 +2,7 @@
 // Rating - 1001
 // https://www.codechef.com/submit/PROGLANG
 
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
