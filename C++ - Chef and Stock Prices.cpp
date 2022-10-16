@@ -1,6 +1,6 @@
 // C++ - Chef and Stock Prices
-// Rating - ---
-// https://www.codechef.com/LP1TO201/problems/CSTOCK
+// Rating - 1069
+// https://www.codechef.com/problems/CSTOCK
 
 #include <bits/stdc++.h>
 using namespace std;
