@@ -1,6 +1,6 @@
 // C++ - Id and Ship
-// Rating - ---
-// https://www.codechef.com/MP1TO203/problems/FLOW010?tab=statement
+// Rating - 847
+// https://www.codechef.com/problems/FLOW010
 
 #include <bits/stdc++.h>
 using namespace std;
