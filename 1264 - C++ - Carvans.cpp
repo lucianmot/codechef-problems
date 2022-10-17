@@ -1,23 +1,27 @@
 // C++ - Carvans
-// Rating - ---
-// https://www.codechef.com/MP1TO203/problems/CARVANS?tab=statement
+// Rating - 1264
+// https://www.codechef.com/problems/CARVANS
 
 // Unresolved, works in sample fails on submit, no explanation why not working
 
 #include <bits/stdc++.h>
 using namespace std;
+#define ll long long
 
 int main() {
-	long t;
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+	ll t;
 	cin >> t;
 	while(t--) {
-	    long num;
+	    ll num;
 	    cin >> num;
-	    long previousCar;
+	    ll previousCar;
 	    cin >> previousCar;
-	    long answer = 1;
-	    for ( long i = 0; i < num - 1; i++ ) {
-	        long currentCar;
+	    ll answer = 1;
+	    for ( ll i = 0; i < num - 1; i++ ) {
+	        ll currentCar;
 	        cin >> currentCar;
 	        if ( currentCar <= previousCar ) {
 	            answer+=1;
