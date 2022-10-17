@@ -1,6 +1,6 @@
 // C++ - Problem Category
-// Rating - ---
-// https://www.codechef.com/LP1TO201/problems/PROBCAT
+// Rating - 860
+// https://www.codechef.com/problems/PROBCAT
 
 #include <bits/stdc++.h>
 using namespace std;
