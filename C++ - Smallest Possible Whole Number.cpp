@@ -1,6 +1,6 @@
 // C++ - Smallest Possible Whole Number
 // Rating - ---
-// https://www.codechef.com/LP1TO201/problems/SMOL?tab=statement
+// https://www.codechef.com/LP1TO201/problems/SMOL
 
 #include <iostream>
 using namespace std;
