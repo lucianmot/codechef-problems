@@ -1,5 +1,5 @@
 // C++ - Luigi and Uniformity
-// Rating - ---
+// Rating - 1185
 // https://www.codechef.com/START64D/problems/DIVIDEMAKEEQ
 
 #include <bits/stdc++.h>

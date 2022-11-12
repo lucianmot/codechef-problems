@@ -1,5 +1,5 @@
 // C++ - Distinct Colors
-// Rating - ---
+// Rating - 760
 // https://www.codechef.com/START64D/problems/DISTINCTCOL
 
 #include <bits/stdc++.h>

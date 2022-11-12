@@ -1,5 +1,5 @@
 // C++ - Mario and the Broken String
-// Rating - ---
+// Rating - 816
 // https://www.codechef.com/START64D/problems/BROKENSTRING
 
 #include <bits/stdc++.h>
