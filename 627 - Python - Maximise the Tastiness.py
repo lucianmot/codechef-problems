@@ -1,6 +1,6 @@
-// Python - Maximise the Tastiness
-// Rating - 627
-// https://www.codechef.com/problems/MAXTASTE
+# Python - Maximise the Tastiness
+# Rating - 627
+# https://www.codechef.com/problems/MAXTASTE
 
 testCases = int(input())
 
