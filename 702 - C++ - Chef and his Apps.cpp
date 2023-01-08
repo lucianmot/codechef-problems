@@ -10,7 +10,7 @@ int main() {
     cin >> t;
     while(t--) {
         cin >> s >> x >> y >> z;
-        int remainingStorage = s - (x +y);
+        int remainingStorage = s - (x + y);
         if ( z <= remainingStorage ) {
             cout << 0 << endl;
         } else if ( z > remainingStorage && (z <= (x + remainingStorage) || z <= (y + remainingStorage))) {
