@@ -31,3 +31,29 @@
 // }
 
 // my solution using unordered map to count duplicates looping over 2nd and checking which one is odd
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int t;
+	string s;
+	cin >> t;
+	while(t--) {
+	    cin >> s;
+	    int sizeArr = s.length() - 1;
+	    char answer = '!';
+	    unordered_map<char, int> countArr;
+
+        for (int i = 0; i <= sizeArr; i++)
+            countArr[s[i]]++;
+            
+        for (auto x : countArr)
+            if ( x.second % 2 != 0 ) {
+                answer = x.first;
+                break;
+            }
+        
+        answer != '!' ? cout << answer << endl : cout << -1 << endl;
+	}
+	return 0;
+}
