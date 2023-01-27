@@ -16,7 +16,7 @@ int main() {
 	    for (int i = 0; i < n; i++) {
 	        int num;
 	        cin >> num;
-	        num+=10;
+	        num+=k;
 	        if (num % 7 == 0) {
 	            answer++;
 	        }
