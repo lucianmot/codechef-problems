@@ -1,6 +1,6 @@
 // C++ - Tom and Jerry Chase
 // Rating - 298
-// https://www.codechef.com/problems/JERRYCHASE 
+// https://www.codechef.com/problems/JERRYCHASE
 
 #include <bits/stdc++.h>
 using namespace std;
