@@ -10,7 +10,7 @@ int main() {
 	float x, y, xr, yr, d;
 	cin >> t;
 	while(t--) {
-	    cin >> x >> y >> xr >> d;
+	    cin >> x >> y >> xr >> yr >> d;
 	    float food = x / xr;
 	    float water = y / yr;
 	    float answer = min(food, water);
